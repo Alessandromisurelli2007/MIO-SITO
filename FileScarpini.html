@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css.css" rel="stylesheet">
+    <style>
+        #logo {
+            width: 9cm;
+            height: 3cm;
+            padding: 1cm;
+        }
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+        .separator {
+            height: 5px;
+            background-color: #e40b0b;
+            margin: 20px 0; /* Spazio sopra e sotto il separatore */
+        }
+        div.gallery {
+            margin: 30px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 350px;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+            color: aliceblue;
+        }
+
+        .gallery-container {
+            display: flex;
+            justify-content: center;
+            /* Centra le gallerie orizzontalmente */
+            flex-wrap: wrap;
+            /* Permette che le gallerie vadano a capo quando necessario */
+            gap: 20px;
+            /* Distanza tra le gallerie */
+        }
+        .header-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Allinea gli elementi al centro orizzontalmente */
+            justify-content: center; /* Allinea gli elementi al centro verticalmente */
+            padding: 20px 0; /* Aggiunge uno spazio interno sopra e sotto */
+            color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>    
+    <nav>
+        <div class="logo">
+            <img src="img/prova.png">
+        </div>
+        <ul class="menu">
+            <li><a href="File1.html">Home</a></li>
+            <li><a href="FileMaglie.html">Maglie</a></li>
+            <li><a href="FileAccessori.html">Accessori</a></li>
+            <li><a href="FileScarpini.html">Scarpini</a></li>
+        </ul>
+    </nav>
+    <div class="separator"></div>
+    <h1 style="text-align: center; color: whitesmoke;">SCARPINI</h1>
+    <div class="gallery-container">
+        <div class="gallery">
+            <a target="_blank" href="img/Scarpa1.1.png">
+                <img src="img/Scarpa1.1.png" alt="Scarpa1" width="600" height="400">
+            </a>
+            <div class="desc">Speed Atom 2.0  149,99€</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/Scarpa2.png">
+                <img src="img/Scarpa2.png" alt="Scarpa1" width="600" height="400">
+            </a>
+            <div class="desc">UltraBoost  119,99€</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/Scarpa3.png">
+                <img src="img/Scarpa3.png" alt="scarpa3" width="600" height="400">
+            </a>
+            <div class="desc">Predator 3  199,99€</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/Scarpa4.png">
+                <img src="img/Scarpa4.png" alt="scarpa4" width="600" height="400">
+            </a>
+            <div class="desc">Speed F25  249,99€</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/Scarpa5.png">
+                <img src="img/Scarpa5.png" alt="scarpa5" width="600" height="400">
+            </a>
+            <div class="desc">Razor 7  100€</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img/Scarpa6.png">
+                <img src="img/Scarpa6.png" alt="scarpa6" width="600" height="400">
+            </a>
+            <div class="desc">NextFly Pro 2  199,99€</div>
+        </div>
+    </div>
+</body>
+
+</html>
